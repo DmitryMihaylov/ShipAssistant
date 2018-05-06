@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
         buttonStart = findViewById(R.id.buttonStart);
         buttonAbout = findViewById(R.id.buttonAbout);
         buttonExit = findViewById(R.id.buttonExit);
+        System.out.print("Commit");
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
